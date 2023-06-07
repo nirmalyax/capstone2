@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+}
+
+h2, p, a, li{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* to have margins around groups of things */
+.container {
+    /* padding: 2rem 2rem 2rem 2rem; */
+    margin: 0 4.5rem;
+}
+
+
+/* Hero */
+#hero {
+    background-color: #DDE6ED;
+    height: 350px;
+}
+
+#hero > .container{
+    display: flex;
+    justify-content: center;
+    /* height: 100%; */
+}
+
+.title-box {
+    position: relative;
+}
+
+.title, .sub-title {
+    color: lightsteelblue;
+}
+
+.title {
+    font-family: 'Calistoga', cursive;
+    font-size: 40px;
+    position: absolute;
+    left: 125px;
+    top: 83px;
+}
+
+.sub-title {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    left: 175px;
+    top: 142px;
+}
+
+
+
+
+/* about */
+.about-grid {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+}
+
+#about .container {
+    margin-right: 0px;
+}
+
+.about-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* experience */
+#experience {
+    background-color: #E987AB;
+    padding: 3rem 0;
+}
+
+#experience > .container {
+    border-left: black solid 7px;
+    border-right: black solid 7px;
+    
+    padding: 35px;
+    height: fit-content;
+    min-height: 450px;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    direction: rtl;
+    text-align: right;
+}
+
+.exp-list > *{
+    margin: 3.5rem 0;
+}
+
+/* projects */
+#projects {
+    background-color: #4A87B5;
+}
+
+.blob-container {
+    display: grid;
+    grid-template-columns: 44px 38px 257px 149px 145px 152px 47px 234px 139px;
+    grid-template-rows: 10px 4px 145px 130px 95px 69px 186px;
+    
+}
+
+.blob1 {
+    /* 165 + 180*/
+    transform: rotate(345deg);
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.blob2 {
+    transform: rotate(171deg);
+    grid-column-start: 4;
+    grid-row-start: 5;
+}
+
+.blob3 {
+    transform: rotate(60deg);
+    grid-column-start: 6;
+    grid-row-start: 1;
+}
+
+.blob4 {
+
+}
+
+
+/* contact */
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-bottom: 45px;
+}
+
+.contact-title {
+    font-size: 53px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1rem;
+    background-color: #4A87B5;
+}
+
+.icon-box svg {
+    height: 32px;
+    width: 32px;
+}
+
+.contact-box, .contact-title-box {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* footer */
+footer {
+    background-color: #4A87B5;
+    height: 10rem;
+    padding: 20px;
+}
+
