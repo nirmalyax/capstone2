@@ -103,30 +103,66 @@ h2, p, a, li{
     background-color: #4A87B5;
 }
 
-.blob-container {
+.blob-grid {
     display: grid;
     grid-template-columns: 44px 38px 257px 149px 145px 152px 47px 234px 139px;
     grid-template-rows: 10px 4px 145px 130px 95px 69px 186px;
     
 }
 
-.blob1 {
-    /* 165 + 180*/
-    transform: rotate(345deg);
+.project-containers {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+
+.text {
+    position: absolute;
+    font-size:45px;
+}
+
+.p1-container {
     grid-column-start: 2;
     grid-row-start: 2;
 }
 
-.blob2 {
-    transform: rotate(171deg);
+.p1 {
+    left: 121px;
+    bottom: 180px;
+}
+
+.blob1 {
+    /* 165 + 180*/
+    transform: rotate(345deg);
+}
+
+.p2-container {
     grid-column-start: 4;
     grid-row-start: 5;
 }
 
-.blob3 {
-    transform: rotate(60deg);
+.p2 {
+    left: 120px;
+    bottom: 170px;
+}
+
+.blob2 {
+    transform: rotate(171deg);
+}
+
+.p3-container {
     grid-column-start: 6;
     grid-row-start: 1;
+}
+
+.p3 {
+    left: 99px;
+    bottom: 180px;
+}
+
+.blob3 {
+    transform: rotate(60deg);
 }
 
 .blob4 {
