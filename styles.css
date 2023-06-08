@@ -101,6 +101,8 @@ h2, p, a, li{
 /* projects */
 #projects {
     background-color: #4A87B5;
+    display: flex;
+    justify-content: center;
 }
 
 .blob-grid {
