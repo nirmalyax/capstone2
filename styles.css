@@ -96,7 +96,48 @@ h2, p, a, li{
 
 .exp-list > *{
     margin: 3.5rem 0;
+    font-size: large;
+    font-weight: bold;
 }
+
+.skills-container {
+    position: relative;
+}
+
+.skill-tech {
+    position: absolute;
+    top: 170px;
+    left: 170px;
+    font-size: xx-large;
+}
+
+.skill-soft {
+    position: absolute;
+    top: 170px;
+    left: 210px;
+    font-size: xx-large;
+}
+
+.skill-list {
+    list-style-type: none;
+    text-align: center;
+    width: fit-content;
+    position: absolute;
+    left: 20px;
+    top: 220px;
+}
+
+.soft {
+    left: 153px;
+    top: 220px;
+}
+
+.skill-list > * {
+    margin: 2rem 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+
 
 /* projects */
 #projects {
