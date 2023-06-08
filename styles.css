@@ -165,8 +165,23 @@ h2, p, a, li{
     transform: rotate(60deg);
 }
 
-.blob4 {
+.p4-container {
+    grid-column-start: 8;
+    grid-row-start: 7;
+}
 
+.p4 {
+    left: 100px;
+    top: 0px;
+}
+
+.blob4 {
+    transform: rotate(42deg);
+}
+
+.p5-container {
+    grid-column-end: 2;
+    grid-row-start: 7;
 }
 
 .button {
@@ -191,7 +206,7 @@ h2, p, a, li{
 .b3 {
     position: absolute;
     top: 260px;
-    left: 180px;
+    left: 185px;
 }
 /* contact */
 #contact {
