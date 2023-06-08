@@ -67,6 +67,25 @@ h2, p, a, li{
 .about-grid {
     display: grid;
     grid-template-columns: 2fr 8fr 2fr;
+    align-items: center;
+}
+
+@media (max-width: 850px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr 1fr;
+        height: 100%;
+    }
+
+    .swirl {
+        width: 150px;
+    }
+}
+
+.swirl {
+    max-width: 100%;
+    min-width: 150px;
+    height: auto;
 }
 
 .left-swirl {
@@ -75,6 +94,7 @@ h2, p, a, li{
 
 #about .container {
     margin: 0 1rem;
+    padding: 2rem 0;
 }
 
 .about-div {
