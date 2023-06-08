@@ -29,6 +29,16 @@ h2, p, a, li{
     position: relative;
 }
 
+.title-banner {
+    transform: scaleX(1);
+}
+
+@media (min-width: 1200px) {
+    .title-banner {
+        transform: scaleX(1.5);
+    }
+}
+
 .title, .sub-title {
     color: lightsteelblue;
 }
@@ -38,14 +48,14 @@ h2, p, a, li{
     font-size: 40px;
     position: absolute;
     left: 125px;
-    top: 83px;
+    top: 89px;
 }
 
 .sub-title {
     font-family: 'Open Sans', sans-serif;
     position: absolute;
     left: 175px;
-    top: 142px;
+    top: 148px;
 }
 
 
@@ -104,6 +114,18 @@ h2, p, a, li{
     margin: 3.5rem 0;
     font-size: large;
     font-weight: bold;
+}
+
+.blob-container {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+@media (max-width: 1335px) {
+    .blob-container {
+        flex-direction: column;
+    }
 }
 
 .skills-container {
