@@ -49,16 +49,22 @@ h2, p, a, li{
 }
 
 
-
-
 /* about */
+#about {
+    background-color: #DDE6ED;
+}
+
 .about-grid {
     display: grid;
-    grid-template-columns: 7fr 3fr;
+    grid-template-columns: 2fr 8fr 2fr;
+}
+
+.left-swirl {
+    transform: scaleX(-1);
 }
 
 #about .container {
-    margin-right: 0px;
+    margin: 0 1rem;
 }
 
 .about-div {
@@ -123,13 +129,13 @@ h2, p, a, li{
     text-align: center;
     width: fit-content;
     position: absolute;
-    left: 20px;
-    top: 220px;
+    left: 83px;
+    top: 225px;
 }
 
 .soft {
     left: 153px;
-    top: 220px;
+    top: 225px;
 }
 
 .skill-list > * {
