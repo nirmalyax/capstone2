@@ -207,8 +207,7 @@ h2, p, a, li{
 .blob-grid {
     display: grid;
     grid-template-columns: 44px 38px 257px 149px 145px 152px 47px 234px 139px;
-    grid-template-rows: 10px 4px 145px 130px 95px 69px 186px;
-    
+    grid-template-rows: 10px 4px 130px 58px 130px 95px 69px 186px;
 }
 
 .project-containers {
@@ -240,7 +239,7 @@ h2, p, a, li{
 
 .p2-container {
     grid-column-start: 4;
-    grid-row-start: 5;
+    grid-row-start: 6;
 }
 
 .p2 {
@@ -268,7 +267,7 @@ h2, p, a, li{
 
 .p4-container {
     grid-column-start: 8;
-    grid-row-start: 6;
+    grid-row-start: 7;
 }
 
 .p4 {
@@ -282,7 +281,7 @@ h2, p, a, li{
 
 .p5-container {
     grid-column-end: 4;
-    grid-row-start: 7;
+    grid-row-start: 8;
     justify-self: end;
 }
 
@@ -322,6 +321,43 @@ h2, p, a, li{
     top: 260px;
     left: 185px;
 }
+
+@media (max-width: 1200px) {
+    .blob-grid {
+        row-gap: 80px;
+    }
+
+    .p1-container {
+        grid-column-start: 4;
+        grid-row-start: 2;
+        
+    }
+    .p2-container {
+        grid-column-start: 6;
+        grid-row-start: 4;
+    }
+    .p3-container {
+        grid-column-start: 4;
+        grid-row-start: 6;
+    }
+    .p4-container {
+        grid-column-start: 6;
+        grid-row-start: 8;
+    }
+    .p5-container {
+        grid-column-end: 4;
+        grid-row-start: 7;
+        justify-self: end;
+    }
+    .p6-container {
+        grid-column-start: 9
+    }
+    .p7-container {
+        justify-self: end;
+    }
+}
+
+
 /* contact */
 #contact {
     display: flex;
