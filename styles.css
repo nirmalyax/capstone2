@@ -103,6 +103,8 @@ h2, p, a, li{
     background-color: #4A87B5;
     display: flex;
     justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .blob-grid {
@@ -169,7 +171,7 @@ h2, p, a, li{
 
 .p4-container {
     grid-column-start: 8;
-    grid-row-start: 7;
+    grid-row-start: 6;
 }
 
 .p4 {
@@ -177,13 +179,26 @@ h2, p, a, li{
     top: 0px;
 }
 
-.blob4 {
+.blob5 {
     transform: rotate(42deg);
 }
 
 .p5-container {
-    grid-column-end: 2;
+    grid-column-end: 4;
     grid-row-start: 7;
+    justify-self: end;
+}
+
+.blob6 {
+    transform: rotate(315deg);
+}
+
+.p6-container {
+    grid-column-start: 9
+}
+
+.p7-container {
+    justify-self: end;
 }
 
 .button {
