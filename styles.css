@@ -129,7 +129,7 @@ h2, p, a, li{
 
 .p1 {
     left: 121px;
-    bottom: 180px;
+    bottom: 160px;
 }
 
 .blob1 {
@@ -144,7 +144,7 @@ h2, p, a, li{
 
 .p2 {
     left: 120px;
-    bottom: 170px;
+    bottom: 145px;
 }
 
 .blob2 {
@@ -158,7 +158,7 @@ h2, p, a, li{
 
 .p3 {
     left: 99px;
-    bottom: 180px;
+    bottom: 170px;
 }
 
 .blob3 {
@@ -169,7 +169,30 @@ h2, p, a, li{
 
 }
 
+.button {
+    width: 160px;
+    height: 45px;
+    background-color: #9DB2BF;
+    border-radius: 4rem;
+}
 
+.b1 {
+    position: absolute;
+    top: 190px;
+    left: 135px;
+}
+
+.b2 {
+    position: absolute;
+    bottom: 130px;
+    left: 135px;
+}
+
+.b3 {
+    position: absolute;
+    top: 260px;
+    left: 180px;
+}
 /* contact */
 #contact {
     display: flex;
