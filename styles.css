@@ -217,6 +217,7 @@ body {
     display: grid;
     grid-template-columns: 44px 38px 257px 149px 145px 152px 47px 234px 139px;
     grid-template-rows: 10px 4px 130px 58px 130px 95px 69px 186px;
+    padding-right: 100px;
 }
 
 .project-containers {
@@ -334,6 +335,7 @@ body {
 @media (max-width: 1200px) {
     .blob-grid {
         row-gap: 80px;
+        padding-right: 200px;
     }
 
     .p1-container {
